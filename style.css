@@ -1,0 +1,210 @@
+#title {
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  color: #2A64A8;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+    
+.body {
+    background-color: dodgerblue;
+    display: flex;
+    height: 1000px;
+    overflow: auto;
+}
+
+#sidebar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #92B8DE;
+    width: 500px;
+    height: 1000px;
+    align-content: stretch;
+    align-items: stretch;
+    overflow: auto;
+}
+
+#icon {
+    height: 100px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+#username {
+    margin-top: 158px;
+    margin-left: -193px;
+    font-family: 'Russo One', sans-serif;
+    color: #2A64A8;
+    font-size: 20px;
+}
+
+#username-input {
+    margin-top: 158px;
+    margin-left: 11px;
+    height: 20px;
+}
+
+#password {
+    margin-top: 213px;
+    margin-left: -246px;
+    font-family: 'Russo One', sans-serif;
+    color: #2A64A8;
+    font-size: 20px;
+}
+
+#password-input {
+    margin-top: 213px;
+    margin-left: 11px;
+    height: 20px;
+}
+
+#radio {
+    height: 20px;
+    cursor: pointer;
+    margin-top: 255px;
+    margin-left: -113px;
+}
+
+#remember {
+    margin-top: 255px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#login {
+    height: 20px;
+    width: 120px;
+    cursor: pointer;
+    margin-top: 255px;
+    margin-left: -267px;
+}
+
+#login:hover {
+    background-color: #B9C1CD;
+}
+
+#login:active {
+    background-color: #959494;
+}
+
+#create-tweet-div {
+    height: 150px;
+    width: 900px;
+    background-color: #5884C7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#create-tweet {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: #1F2F48;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+#create-tweet-input {
+    width: 500px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #CAC9C9;
+}
+
+#tweet-button {
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: #1F2F48;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+#tweet-button:hover {
+    background-color: #B9C1CD;
+}
+
+#tweet-button:active {
+    background-color: #959494;
+}
+
+#tweet-container {
+    margin-top: 50px;
+    margin-left: 250px;
+    border-radius: 5px;
+}
+
+.tweetSection {
+    background-color: #92B8DE;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 383px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#load-tweet-button {
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    margin-left: 357px;
+    margin-top: 35px;
+    border-radius: 5px;
+    border-bottom: 20px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: #2A64A8;
+    font-size: 15px;
+}
+
+#load-tweet-button:hover {
+    background-color: #B9C1CD;
+}
+
+#load-tweet-button:active {
+    background-color: #959494;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    font-family: 'Russo One', sans-serif;
+    color: #1F2F48;
+    font-size: 20px;
+    margin-top: 320px;
+    margin-left: -60px;
+}
+
+.nav-item a {
+    color: #2A64A8;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+/* .trends {
+    height: 300px;
+    width: 300px;
+    background-color: #D1E2F3;
+    margin-left: -166px;
+    margin-top: 529px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: #2A64A8;
+    font-size: 30px;
+    padding: 20px;
+} */
